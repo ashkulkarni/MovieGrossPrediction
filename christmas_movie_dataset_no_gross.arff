@@ -1,0 +1,59 @@
+@relation whatever
+
+@attribute budget numeric
+@attribute length numeric
+@attribute critic_score numeric
+@attribute audience_score numeric
+@attribute meta_score numeric
+@attribute imdb_rating numeric
+@attribute sequel { 0 , 1 }  
+@attribute total_cast_award_win numeric
+@attribute total_cast_award_nominate numeric
+@attribute hi_lo { 0 , 1 } 
+@attribute genre_document { 0 , 1 } 
+@attribute genre_drama { 0 , 1 } 
+@attribute genre_comedy { 0 , 1 }  
+@attribute genre_mystery { 0 , 1 } 
+@attribute genre_news { 0 , 1 }  
+@attribute genre_sports { 0 , 1 } 
+@attribute genre_scifi { 0 , 1 } 
+@attribute genre_romance { 0 , 1 }  
+@attribute genre_family { 0 , 1 }  
+@attribute genre_biography { 0 , 1 } 
+@attribute genre_music { 0 , 1 } 
+@attribute genre_adventure { 0 , 1 }  
+@attribute genre_crime { 0 , 1 }  
+@attribute genre_war { 0 , 1 }  
+@attribute genre_musical { 0 , 1 }  
+@attribute genre_fantasy { 0 , 1 }  
+@attribute genre_thriller { 0 , 1 } 
+@attribute genre_horror { 0 , 1 } 
+@attribute genre_animation { 0 , 1 }  
+@attribute genre_action { 0 , 1 } 
+@attribute genre_history { 0 , 1 } 
+@attribute genre_western { 0 , 1 } 
+@attribute genre_adult { 0 , 1 }  
+@attribute genre_filmnoir { 0 , 1 }  
+
+
+@data
+50000000 , 124 , ? , 4.2 , ? , 7.7 , 0 , 24 , 118 , ? , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+65000000 , 137 , 6.2 , 4 , 59 , 6.6 , 0 , 26 , 94 , ? , 0 , 1 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 
+10000000 , 106 , 6 , 3.8 , 58 , 7.4 , 0 , 13 , 40 , ? , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+30000000 , 112 , ? , 4 , ? , ? , 0 , 4 , 16 , ? , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 
+3000000 , ? , ? , ? , ? , ? , 0 , 0 , 1 , ? , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+? , 104 , ? , ? , ? , 6 , 0 , 0 , 0 , ? , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 1 , 0 , 0 , 0 , 0 , 0 , 0 
+? , 85 , ? , ? , ? , ? , 0 , 0 , 1 , ? , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 1 , 0 , 0 , 0 , 0 
+? , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 
+? , 93 , ? , ? , ? , ? , 0 , 0 , 0 , ? , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+? , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+20000 , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+? , 94 , ? , ? , ? , ? , 0 , 0 , 0 , ? , 0 , 1 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+1000 , 80 , ? , ? , ? , ? , 0 , 0 , 0 , ? , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+35000 , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+? , 83 , ? , ? , ? , ? , 0 , 0 , 0 , ? , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+? , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+10000 , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+50000 , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+20000 , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 1 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
+? , ? , ? , ? , ? , ? , 0 , 0 , 0 , ? , 1 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 
